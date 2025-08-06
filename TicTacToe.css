@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: auto;
+  background-color: silver;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  text-align: center;
+}
+
+.game {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  box-shadow: #38a3a5;
+}
+
+.box {
+  height: 90px;
+  width: 90px;
+  background-color: #38a3a5;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(246, 8, 8);
+  border-radius: 20px;
+  font-size: 65px;
+  font-weight: 530;
+}
+
+.reset_AND_new_game {
+  height: 6vh;
+  width: 20vh;
+  font-size: 2.6vh;
+  font-weight: 540;
+  border-radius: 1.6vmin;
+  border: 0.38vh solid black;
+  background-color: #22577a;
+  color: white;
+  margin-top: 2vh;
+}
+
+.message {
+  width: 98%;
+  border-radius: 1.6vmin;
+  border: 0.5vh solid red;
+  background-color: #38a3a5;
+  color: black;
+  margin-bottom: 2vh;
+}
+
+.add-msg {
+  display: none;
+}
+
+.congrats {
+  font-size: 4vh;
+  font-weight: 500;
+}
